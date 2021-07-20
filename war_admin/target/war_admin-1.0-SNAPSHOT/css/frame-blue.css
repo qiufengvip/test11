@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+a:hover{
+	color:#fff;
+}
+
+/*  CC版收起箭头 */
+.tog_main_left a{
+	background-color:#428bca;
+}
+.tog_main_left a:hover{
+	background-color:#2066a2;
+}
+.tog_main_top a{
+	background-color:#428bca;
+}
+.tog_main_top a:hover{
+	background-color:#2066a2;
+}
+
+.bg_col_333{
+	background:#428bca;
+}
+.bg_top_img{
+	background:#220537 url(../images/bg_blue.jpg) no-repeat center top;
+}
+
+/* 一级分类 */
+.menu_bot a:hover{
+	color:#428bca;
+}
+.menu_bot a.cur_on {
+	border-right:5px solid #428bca;
+}
+.menu_bot a.cur_on span{
+	color:#428bca;
+}
+.menu_list li a.true_a {
+	background-color: #428bca;
+}

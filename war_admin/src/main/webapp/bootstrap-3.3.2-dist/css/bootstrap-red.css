@@ -1,0 +1,124 @@
+a {
+  color: #f54343;
+}
+a:hover,
+a:focus {
+  color: #d53333;
+}
+.text-primary {
+  color: #f54343;
+}
+.bg-primary {
+  background-color: #f54343;
+}
+.btn-primary {
+  background-color: #f54343;
+  border-color: #d53333;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+  background-color: #d53333;
+  border-color: #d53333;
+}
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+  background-color: #f54343;
+}
+.btn-primary .badge {
+  color: #f54343;
+}
+.btn-link:hover,
+.btn-link:focus {
+  color: #d53333;
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  background-color: #f54343;
+}
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  border-color: #f54343;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  background-color: #f54343;
+}
+.pagination > li > a,
+.pagination > li > span {
+  color: #f54343;
+}
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+  color: #d53333;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #f54343;
+  border-color: #f54343;
+}
+.label-primary {
+  background-color: #f54343;
+}
+.list-group-item.active > .badge,
+.nav-pills > .active > a > .badge {
+  color: #f54343;
+}
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+  border-color: #f54343;
+}
+.progress-bar {
+  background-color: #f54343;
+}
+.list-group-item.active,
+.list-group-item.active:hover,
+.list-group-item.active:focus {
+  background-color: #f54343;
+  border-color: #f54343;
+}
+.panel-primary {
+  border-color: #f54343;
+}
+.panel-primary > .panel-heading {
+  background-color: #f54343;
+  border-color: #f54343;
+}
+.panel-primary > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #f54343;
+}
+.panel-primary > .panel-heading .badge {
+  color: #f54343;
+}
+.panel-primary > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #f54343;
+}

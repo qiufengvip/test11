@@ -1,0 +1,64 @@
+#nav {
+    background-color: #51a1e7;
+}
+
+/* 知识地图 */
+#menu_category h3{
+	background-color:#6ab3f2;
+}
+
+#wrap-nav ul.menu li h3.hover,
+#wrap-nav ul.menu li h3.selected {
+	background-color:#428bca;
+}
+
+#wrap-nav ul.menu li h3.hover a.depth_1,
+#wrap-nav ul.menu li h3.selected a.depth_1 {
+	background-color:#428bca;
+}
+
+.head_2 a {
+    color: #428bca;
+}
+
+.depth_2 h4 a {
+    color: #428bca;
+}
+
+.tab_ul li.active a{
+	color:#428bca;
+}
+
+.title_bt {
+    background-color: #428bca;
+}
+
+.rank-bottom {
+    background: #428bca;
+}
+
+.index-title a {
+    color: #428bca;
+}
+
+/* 文字颜色 */
+.color-blue {
+    color: #428bca;
+}
+
+.color-light-blue {
+    color: #428bca;
+}
+
+/* 边框 */
+.bor_b_blue{
+	border-bottom:1px solid #428bca;
+}
+
+/* 收缩按钮 */
+.shrink_but{
+	background-color:#428bca;
+}
+.shrink_but:hover{
+	background-color:#2066a2;
+}

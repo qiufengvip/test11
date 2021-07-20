@@ -1,0 +1,85 @@
+#nav {
+    background-color: #5cc560;
+}
+
+/* 知识地图 */
+#menu_category h3{
+	background-color:#75d678;
+}
+
+#wrap-nav ul.menu li h3.hover,
+#wrap-nav ul.menu li h3.selected {
+	background-color:#43b647;
+}
+
+#wrap-nav ul.menu li h3.hover a.depth_1,
+#wrap-nav ul.menu li h3.selected a.depth_1 {
+	background-color:#43b647;
+}
+
+.head_2 a {
+    color: #43b647;
+}
+
+.depth_2 h4 a {
+    color: #43b647;
+}
+
+.tab_ul li.active a{
+	color:#43b647;
+}
+
+.a-blue.a-blue:hover,
+.a-blue:focus {
+    color: #43b647;
+}
+
+/*  知识列表页 */
+.ci {
+    color: #43b647;
+}
+
+.word_blue {
+    color: #43b647
+}
+
+.title_bt {
+    background-color: #43b647;
+}
+
+.rank-bottom {
+    background: #43b647;
+}
+
+.index-title a {
+    color: #43b647;
+}
+
+/* 文字颜色 */
+.color-blue {
+    color: #43b647;
+}
+
+.color-light-blue {
+    color: #43b647;
+}
+
+/* 边框 */
+.bor_b_blue{
+	border-bottom:1px solid #43b647;
+}
+
+/* 收缩按钮 */
+.shrink_but{
+	background-color:#43b647;
+}
+.shrink_but:hover{
+	background-color:#2e9732;
+}
+
+.bg_blue {
+    background: #666;
+}
+a.bg_blue:hover{
+	background: #555;
+}

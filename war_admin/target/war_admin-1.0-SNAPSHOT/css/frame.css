@@ -1,0 +1,205 @@
+@charset "utf-8";
+/* CSS Document */
+a:hover {
+	color: #cb272b;
+	text-decoration: none;
+}
+
+
+.bg_cb272b {
+	background: #cb272b;
+}
+
+#wrap-nav ul.menu li, #wrap-nav ul.menu li h3 {
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+}
+
+#nav {
+	height:40px;
+	background:none;
+	background-color: rgba(0,0,0,0.3);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000);
+}
+
+#wrap-nav ul.menu li h3.hover a.depth_1,
+#wrap-nav ul.menu li h3.selected a.depth_1,
+#wrap-nav ul.menu li h3.hover, #wrap-nav ul.menu li h3.selected {
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.3);
+	color: #fff;
+	text-decoration: none;
+}
+
+.btn-primary {
+	background: #cb272b;
+	border-color: #b0000a;
+}
+
+.btn-primary:hover {
+	background: #b0000a;
+	border-color: #b0000a;
+}
+
+/*  CC版收起箭头 */
+.tog_main_left{
+	position:absolute;
+	top:49%;
+	left:0;
+}
+.tog_main_left a{
+	display:block;
+	width:10px;
+	height:30px;
+	background-color:#cb272b;
+	background-repeat:no-repeat;
+	background-image:url(../images/home/lstop_ico.png);
+}
+.tog_main_left a:hover{
+	background-color:#b0000a;
+}
+#rightbar{
+	background-position:left center;
+}
+#leftbar{
+	display: none;
+	background-position:right center;
+}
+
+
+.tog_main_top{
+	position:absolute;
+	top:0;
+	left:49%;
+}
+.tog_main_top a{
+	display:block;
+	width:30px;
+	height:10px;
+	background-color:#cb272b;
+	background-repeat:no-repeat;
+	background-image:url(../images/home/tstop_ico.png);
+}
+.tog_main_top a:hover{
+	background-color:#b0000a;
+}
+#bottombar{
+	background-position:center top;
+}
+#topbar{
+	display:none;
+	background-position:center bottom;
+}
+
+.bor_r_1px{
+	border-right:1px solid #eaebeb;
+}
+
+.bor_r_3px{
+	border-right:3px solid #333;
+}
+
+.bg_col_333{
+	background:#333;
+}
+
+/* 顶部框架背景 */
+.bg_top_img{
+	background:#191919 url(../images/bg_black.jpg) no-repeat center top;
+}
+
+/* 一级分类 */
+.menu_bot {
+	width: 100%;
+	overflow: hidden;
+}
+
+.menu_bot a.menu_bot_a {
+	width: 100%;
+	height: 42px;
+	color: #b5b6b6;
+	line-height: 42px;
+	overflow: hidden;
+	display: block;
+	padding-left: 50px;
+	font-size:14px;
+	border-right:5px solid #fff;
+	background-repeat: no-repeat;
+	background-position: 20px top;
+}
+
+.menu_bot a.cur_on {
+	color: #333;
+	background-color: #f2f3f3;
+	background-position: 20px bottom;
+}
+.menu_bot a.cur_on:hover{
+	color:#333;
+}
+
+.menu_bot1 a.menu_bot_a{
+	background-image: url(../images/lmenuicon/lmenu-ico1.png);
+}
+.menu_bot2 a.menu_bot_a{
+	background-image: url(../images/lmenuicon/lmenu-ico2.png);
+}
+.menu_bot3 a.menu_bot_a{
+	background-image: url(../images/lmenuicon/lmenu-ico3.png);
+}
+.menu_bot4 a.menu_bot_a{
+	background-image: url(../images/lmenuicon/lmenu-ico4.png);
+}
+.menu_bot5 a.menu_bot_a{
+	background-image: url(../images/lmenuicon/lmenu-ico5.png);
+}
+.menu_bot6 a.menu_bot_a{
+	background-image: url(../images/lmenuicon/lmenu-ico6.png);
+}
+.menu_bot7 a.menu_bot_a{
+	background-image: url(../images/lmenuicon/lmenu-ico7.png);
+}
+
+/* 菜单列表 */
+.menu_list, .tools_list {
+	width: 100%;
+	overflow: hidden;
+}
+
+.menu_list li a.menu_a, .tools_list li a {
+	width: 80%;
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	overflow: hidden;
+	padding-left: 10px;
+	margin-left: 15%;
+	font-size:12px;
+	border-bottom: 1px solid #eee;
+}
+
+.menu_list .list_a {
+	width: 80%;
+	display: none;
+	background: #fff;
+	padding-bottom: 10px;
+	margin-left: 15%;
+	list-style: none;
+	border-bottom: 1px solid #ddd;
+}
+
+.menu_list .list_a a {
+	display: block;
+	margin-top: 10px;
+	padding-left: 20px;
+}
+
+.menu_list li a.true_a {
+	color: #fff;
+	background-color: #cb272b;
+	background-position: 10px -52px;
+}
+
+.menu_list li a.true_a:hover {
+	color: #fff;
+}

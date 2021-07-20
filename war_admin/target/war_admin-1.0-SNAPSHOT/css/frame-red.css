@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+a:hover{
+	color:#fff;
+}
+.bg_cb272b {
+	background: #f0ad4e;
+}
+.btn-primary {
+	background: #f0ad4e;
+	border-color: #f0ad4e;
+}
+.btn-primary:hover {
+	background: #e19e3f;
+	border-color: #e19e3f;
+}
+
+/*  CC版收起箭头 */
+.tog_main_left a{
+	background-color:#f54343;
+}
+.tog_main_left a:hover{
+	background-color:#d53333;
+}
+.tog_main_top a{
+	background-color:#f54343;
+}
+.tog_main_top a:hover{
+	background-color:#d53333;
+}
+
+.bg_col_333{
+	background:#f54343;
+}
+.bg_top_img{
+	background:#630517 url(../images/bg_red.jpg) no-repeat center top;
+}
+
+/* 一级分类 */
+.menu_bot a:hover{
+	color:#f54343;
+}
+.menu_bot a.cur_on {
+	border-right:5px solid #f54343;
+}
+.menu_bot a.cur_on span{
+	color:#f54343;
+}
+.menu_list li a.true_a {
+	background-color: #f54343;
+}
