@@ -1,26 +1,31 @@
 package cn.kmpro.demo.admin.controller;
 
+import cn.kmpro.Config.service.ConfigService;
 import cn.kmpro.demo.admin.model.AdminUser;
 import cn.kmpro.demo.admin.service.AdminUserService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;
+import java.util.Map;
 
 @Controller
+
 @RequestMapping(value = "/admin")
 public class HomeController {
     @Autowired
     protected AdminUserService adminUserService;
+
+    @Autowired
+    protected ConfigService configService;
+
+
+
     private Logger logger = LoggerFactory.getLogger(getClass());
 
     @RequestMapping(method = RequestMethod.GET,value = "/index")
@@ -107,4 +112,19 @@ public class HomeController {
         adminUserService.edit(adminUser);
         return "redirect:/admin/query";
     }
+
+
+    /**
+     * @desc   需求B  的  api
+     * @param value
+     * @return
+     */
+    @ResponseBody
+    @RequestMapping("config")
+    public Map<String, Object> Config(String value){
+        return configService.getConfig(value);
+    }
+
+
+
 }

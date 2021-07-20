@@ -73,4 +73,5 @@
 
     <bean id="exceptionHandler" class="cn.kmpro.web.MappingExceptionResolver"/>
 
+
 </beans>

@@ -15,9 +15,13 @@
        default-lazy-init="false">
     <description>Spring公共配置</description>
 
-    <context:property-placeholder location="classpath:application.properties,kmproconfig/*.properties"/>
+    <context:property-placeholder location="classpath:application.properties,kmproconfig/*.properties" ignore-unresolvable="true"/>
+
+<!--    <context:property-placeholder location="classpath:kmproconfig/core.properties" ignore-unresolvable="true"/>-->
+
+
     <!--使用annotation 自动注册bean, 并保证@Required、@Autowired的属性被注入,默认仅注入model，dao，service层的bean-->
-    <context:component-scan base-package="cn.kmpro.**.model,cn.kmpro.**.dao,cn.kmpro.**.service">
+    <context:component-scan base-package="cn.kmpro.**.model,cn.kmpro.**.dao,cn.kmpro.**.service,cn.kmpro.**.util">
     </context:component-scan>
 
     <aop:aspectj-autoproxy proxy-target-class="true"/>
@@ -86,5 +90,9 @@
         <property name="timeBetweenEvictionRunsMillis" value="3600000"/>
         <property name="minEvictableIdleTimeMillis" value="3600000"/>
     </bean>
+
+
+
+
 
 </beans>

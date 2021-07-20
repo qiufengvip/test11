@@ -31,4 +31,5 @@
         <appender-ref ref="console"/>
         <appender-ref ref="all"/>
     </root>
+
 </configuration>
